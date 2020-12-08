@@ -1,0 +1,201 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/*      */
+.font {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/*        */
+.container {
+  padding: 3% 15%;
+}
+
+/* font */
+body {
+  font-family: 'Montserrat';
+}
+
+/* tindog font */
+#font {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+
+
+/* navbar padding */
+.row {
+  padding-top: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-bar {
+  padding: 0 0 4.5rem;
+  
+}
+
+/* image rotate */
+.dog-img {
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+  width: 310px;
+  bottom: -300px;
+  right: 30%;
+}
+
+/* features */
+.feature-font {
+  font-weight: 500;
+  font-family: 'Montserrat';
+  color: #000;
+  font-size: 1.2rem;
+  padding: 5%;
+}
+
+.testimonials-font {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+
+.new-font {
+  font-weight: 900;
+  padding-top: 3%;
+}
+
+#features {
+  padding: 7% 10%;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  background-color: #fff;
+}
+
+/* icon */
+.fas {
+  color: #ef8172;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 2% 10%;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 5%;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.h2onceagain {
+  color: #000;
+  font-family: 'Montserrat';
+  padding-top: 25px;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-font2 {
+  font-family: 'Montserrat';
+  color: #000;
+  font-size: 1.2rem;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+/* advanced css */
+@media (max-width:1000px) {
+  #title {
+    text-align: centre;
+  }
+
+  .dog-img {
+    transform: rotate(0deg);
+    position: static;
+    padding-top: 50px;
+  }
+}
+
+/* footer */
+#cta {
+  background-color: #ff4c68;
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 10%;
+
+}
+
+.last{
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 5%;
+}
+
+
+
+#footer{
+  text-align: center;
+  padding: 10%;
+}
+
+.newpara{
+  padding-top: 3%;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+.fa-2x{
+  padding: 0 3%;
+}
+
+.fa-2x:hover{
+color: #153e90;
+}
